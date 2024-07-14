@@ -1,0 +1,39 @@
+.navbar{
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgb(29, 29, 29, 0.8);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    
+}
+
+.personName{
+    color: white;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+@font-face {
+    font-family: "Silkscreen";
+    src: url(../fonts/slkscr.ttf);
+  }
+
+.retroFont{
+    font-family: "Silkscreen";
+    color: rgb(148, 238, 241);
+    text-shadow: 3px 3px rgb(163, 64, 209);
+}
+
+.button{
+
+    border: none;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    border-radius:2px;
+    border-color:rgb(148, 238, 241);
+    border-style: solid;
+    background-color: rgb(0,0,0,0);
+}
