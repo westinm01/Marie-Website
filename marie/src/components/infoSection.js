@@ -1,12 +1,13 @@
 import React from 'react'
 import './infoSection.css'
 
-const infoSection = (props) => {
+const infoSection = ({title, children}) => {
   return (
     <div className = "infoSection">
-        <div className = "infoSectionTitle retroFont">{props.title}</div>
+        <div className = "infoSectionTitle retroFont">{title}</div>
         <hr className = "infoSectionLine"/>
-        <div className = "infoSectionText">{props.text}</div>
+        <div className = "infoSectionText">{children}</div>
+        
     </div>
   )
 }
