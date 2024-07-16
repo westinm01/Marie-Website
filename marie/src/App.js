@@ -15,11 +15,16 @@ function App() {
       
       <InfoSection title = "Hello, world! My name is Marie">
 
-          <div style = {{margin: "auto"}}>
-            <p>I have a bachelor's degree in Computer Science, and although I don't have professional experience yet, I have a strong foundation in C and C++ programming from my coursework and personal projects.</p>
-            <p>I am passionate about space technology and excited about the opportunity to contribute to the development of high-performance space systems.</p>
+          <div className = "text" style = {{margin: "auto"}}>
+            <p>I'm a space enthusiast with a bachelor's degree in Computer Science. While I may not have professional experience just yet, my passion for embedded systems has led me to build a solid foundation in Python, C++, and C. Whether it's coursework or personal projects, I'm always tinkering with something!</p>
+          
+            <p>My dream? To work in the aerospace industry. Right now, I'm on the lookout for an entry-level position in embedded software development or software engineering.</p>
+            
+            <p>On the right, I also have my trusty sidekick, Dijkstra. He's my coding companion, always ready to lend a paw when the projects get tough. Thanks for stopping by my website!</p>
+            <a href="/mw_resume.pdf" target="_blank" rel="noopener noreferrer">View my resume</a>
+            
           </div>
-          <img src = "/marie-dijkstra-2.jpg" alt = "Marie Wolfel" className = "infoSectionImage"/>
+          <img src = "/m_and_d_3.jpg" alt = "Marie Wolfel" className = "infoSectionImage"/>
 
       </InfoSection>
       
