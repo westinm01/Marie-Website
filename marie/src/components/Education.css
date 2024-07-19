@@ -1,0 +1,34 @@
+.education{
+    display:flex;
+    margin: 5px;
+    margin-top: 7px;
+}
+.education-header{
+
+    display: flex;
+    justify-content: space-between;
+}
+.degree{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    margin-top:5px;
+   
+}
+.education-details{
+    
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.edudet{
+    margin-right: 10px;
+}
+
+.uniImage{
+    max-width: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}

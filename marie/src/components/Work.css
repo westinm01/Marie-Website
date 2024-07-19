@@ -1,0 +1,65 @@
+.experienceTags{
+    display: flex;
+    /*flex-wrap: wrap;
+    justify-content: center;*/
+    margin-top: 1rem;
+}
+
+.tag{
+    border-radius: 8px;
+    background-color: rgb(0, 47, 255);
+    margin: 5px;
+    padding: 3px 10px;
+}
+
+.WorkHeader{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.WorkHeaderText{
+    text-align: left;
+    
+}
+
+.WorkHeaderTitle{
+    font-size: 2rem;
+    color: white;
+}
+
+.WorkHeaderLocation{
+    font-size: 1rem;
+    color: white;
+}
+
+.WorkHeaderDate{
+    font-size: 1rem;
+    color: white;
+}
+
+.WorkHeaderImage img{
+    /*Likely need to fix*/
+    
+    max-width: 100px;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.WorkHeaderText p{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.WorkHeaderDesc{
+    text-align: left;
+    flex-grow: 1;
+
+}
+
+.WorkHeaderDesc li{
+    margin-left: 15%;
+    
+}
