@@ -38,3 +38,10 @@
     background-color: rgb(0,0,0,0);
     box-shadow: 3px 3px rgb(163, 64, 209);
 }
+
+/*Can get rid of if you want*/
+.button:hover{
+    background-color: rgb(148, 238, 241);
+    color: rgb(0,0,0);
+    text-shadow: 3px 3px rgb(107, 171, 173);
+  }

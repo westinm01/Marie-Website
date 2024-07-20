@@ -1,13 +1,13 @@
 .App {
   text-align: center;
-  height: 2500px;
+  
   
 }
 
 body{
   background-image: linear-gradient(rgb(0, 53, 133) 0, rgb(255, 59, 69)90%, rgb(255, 115, 60));
   background-repeat: no-repeat;
-  background-size: 100% 2500px;
+  background-size: 100% 100%;
 }
 
 .retroFont{
@@ -19,7 +19,7 @@ body{
 .infoSectionImage{
   max-width: 30%;
   max-height: 300px;
-  border-radius: 10px;
+  border-radius: 38px;
   padding: 1.5rem;
 }
 
@@ -34,4 +34,23 @@ body{
   justify-content: center;
   align-items: center;
 
+}
+
+#resumeButton{
+  border: none;
+ 
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  cursor: pointer;
+  border-radius:2px;
+  border-color:rgb(148, 238, 241);
+  border-style: solid;
+  background-color: rgb(0,0,0,0);
+  box-shadow: 3px 3px rgb(163, 64, 209);
+}
+
+#resumeButton:hover{
+  background-color: rgb(148, 238, 241);
+  color: rgb(0,0,0);
+  text-shadow: 3px 3px rgb(107, 171, 173);
 }

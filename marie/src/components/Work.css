@@ -16,7 +16,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 .WorkHeaderText{
@@ -43,7 +42,7 @@
     /*Likely need to fix*/
     
     max-width: 100px;
-    border-radius: 10px;
+    border-radius: 35px;
     padding: 1.5rem;
 }
 
