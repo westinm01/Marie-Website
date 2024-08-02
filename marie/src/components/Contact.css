@@ -1,0 +1,88 @@
+.icon{
+    max-width: 50px;
+}
+
+.icons{
+    display:flex;
+    justify-content: flex-start;
+    gap : 10px;
+    height: 150px;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 60%;
+    min-width: 60%;
+    
+
+}
+
+.contact-email{
+    text-align: left;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+input{
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+textarea{
+    width: 60%;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-height: 100px;
+    min-width: 40%;
+    max-height: 20rem;
+}
+
+.email-button{
+    width: 200px;
+    padding: 5px;
+    border: none;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    border-radius:2px;
+    border-color:rgb(148, 238, 241);
+    border-style: solid;
+    background-color: rgb(0,0,0,0);
+    box-shadow: 3px 3px rgb(163, 64, 209);
+}
+.email-button:hover{
+    background-color: rgb(148, 238, 241);
+    color: rgb(0,0,0);
+    text-shadow: 3px 3px rgb(107, 171, 173);
+  }
+
+.contactWrapper{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contactImage{
+    width: 200px;
+    max-height: 200px;
+    /*position: absolute;
+    left: 65%;*/
+    
+}
+
+.contact-email{
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}

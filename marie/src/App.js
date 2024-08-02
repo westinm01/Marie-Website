@@ -7,6 +7,7 @@ import ParticlesContainer from './components/ParticlesContainer';
 import Work from './components/Work.js';
 import Education  from './components/Education.js';
 import Project from './components/Project.js';
+import Contact from './components/Contact.js';
 import {motion} from 'framer-motion'
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
         "Grade 200 homework submissions weekly",
         "Grade ~80 student code demos weekly"
       ],
-      tags: ["Patience", "Assembly Programming"]
+      tags: ["Assembly Programming", "Patience"],
+      isTagLanguage: [true, false]
     },
 
     {
@@ -33,7 +35,8 @@ function App() {
         "Contributed to the creation and integration of connected services using AWS and DynamoDB",
           "Adhered to established software development processes throughout the project lifecycle, creating multiple pages of documentation for the team in the process"
       ],
-      tags: ["AWS", "DynamoDB", "JavaScript", "Agile"]
+      tags: ["Javascript", "AWS", "DynamoDB", "Agile"],
+      isTagLanguage: [true, false, false, false]
     },
 
   ]
@@ -60,21 +63,24 @@ function App() {
       date: "June 2024",
       desc: "Person-following shopping cart robot!",
       images: ["/note.jpg"],
-      tags: ["Python", "Embedded Systems", "Computer Vision"]
+      tags: ["Python", "Embedded Systems", "Computer Vision"],
+      isTagLanguage: [true, false, false]
     },
     {
       title: "Starting Today",
       date: "May 2024",
       desc: "The amazing task scheduler",
       images: ["/st3.png", "/st2.png"],
-      tags: ["Flutter", "Firebase", "Dart", "REST API"]
+      tags: ["Dart", "Flutter", "Firebase", "REST API"],
+      isTagLanguage: [true, false, false, false]
     },
     {
       title: "Attendance Tracker",
       date: "March 2024",
       desc: "Identifies the faces of students for easy attendance tracking.",
       images: ["/attendancetracker.jpg"],
-      tags: ["PYNQ Z2 Board", "Raspberry Pi", "Computer Vision"]
+      tags: ["Python", "PYNQ Z2 Board", "Raspberry Pi", "Computer Vision"],
+      isTagLanguage: [true, false, false, false]
     },
 
 
@@ -83,7 +89,8 @@ function App() {
       date: "December 2023",
       desc: "Guitar Hero, but on Arduino!",
       images: ["/gitarduino.jpg"],
-      tags: ["C++", "Embedded Systems", "Arduino"]
+      tags: ["C++", "C", "Embedded Systems", "Arduino"],
+      isTagLanguage: [true, true, false, false]
     },
     {
       title: "Pokemon Duels",
@@ -93,7 +100,8 @@ function App() {
 "Class Design: Implemented SOLID principles with a clear class hierarchy, including classes for display, map menu, and battle management."+
 "Installation/Usage: Clone the repository, build with cmake and make, then run the game to explore maps, battle, and save progress.",
       images: ["/pkmn.png"],
-      tags: ["C++", "Modular Compilation", "Design Patterns", "OOP"]
+      tags: ["C++", "Modular Compilation", "Design Patterns", "OOP"],
+      isTagLanguage: [true, false, false, false]
     },
 
 
@@ -128,17 +136,18 @@ function App() {
         
       <section id = "work"></section>
       <InfoSection title = "Work">
-        <div style = {{"width": "100%"}}>{jobs.map((job, index) => {return <>{index ? <hr style = {{"width": "100%", "borderWidth" : "3px", "border-style": "none","border-top": "dashed"}}/>: ""}<Work title = {job.title} location = {job.location} date = {job.date} image = {job.image} desc = {job.description} tags = {job.tags}/></>})}</div>
+        <div style = {{"width": "100%"}}>{jobs.map((job, index) => {return <>{index ? <hr style = {{"width": "100%", "borderWidth" : "3px", "border-style": "none","border-top": "dashed"}}/>: ""}<Work title = {job.title} location = {job.location} date = {job.date} image = {job.image} desc = {job.description} tags = {job.tags} isTagLanguage = {job.isTagLanguage}/></>})}</div>
         </InfoSection>
 
         <section id = "projects"></section>
         <InfoSection title = "Projects">
-          <div style = {{"width": "100%"}}>{projects.map((project, index) => {return <>{index ? <hr style = {{"width": "100%", "borderWidth" : "3px", "border-style": "none","border-top": "dashed"}}/>: ""}<Project title = {project.title} index = {index} date = {project.date} desc = {project.desc} images = {project.images} tags = {project.tags}/></>})}</div>
+          <div style = {{"width": "100%"}}>{projects.map((project, index) => {return <>{index ? <hr style = {{"width": "100%", "borderWidth" : "3px", "border-style": "none","border-top": "dashed"}}/>: ""}<Project title = {project.title} index = {index} date = {project.date} desc = {project.desc} images = {project.images} tags = {project.tags} isTagLanguage = {project.isTagLanguage}/></>})}</div>
         </InfoSection>
         <section id = "contact"></section>
         <InfoSection title = "Contact">
+          <Contact />
         </InfoSection>
-      
+      <br></br>
     </div>
   );
 }

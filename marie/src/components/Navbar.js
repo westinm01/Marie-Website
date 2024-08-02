@@ -20,7 +20,7 @@ const Navbar = () => {
             <motion.button whileHover={{y: -5}} whileTap = {{ scale: 0.9, duration: 0.1}} className = "button retroFont">Projects</motion.button>
           </Link>
           
-          <Link smooth spy to ="projects">
+          <Link smooth spy to ="contact">
             <motion.button whileHover={{y: -5}} whileTap = {{ scale: 0.9, duration: 0.1}} className = "button retroFont">Contact</motion.button>
           </Link>
         </div>
