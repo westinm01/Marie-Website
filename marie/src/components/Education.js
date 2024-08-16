@@ -10,6 +10,10 @@ const Education = (props) => {
             <p className = "education-details"><span className = "dates edudet">{props.dates}</span>
             <em><span className = "university edudet">{props.university}</span></em></p>
         </div>
+        <ul className ="EducationHeaderDesc">
+                {props.desc.map(desc => {
+                    return <li>{desc}</li>})}
+            </ul>
         </div>
   )
 }

@@ -32,3 +32,9 @@
     margin-right: 20px;
     margin-bottom: 10px;
 }
+
+.EducationHeaderDesc{
+    text-align: left;
+    flex-grow: 1;
+
+}
