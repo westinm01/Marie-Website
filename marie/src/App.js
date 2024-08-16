@@ -131,7 +131,7 @@ function App() {
 
       <section id = "about"></section>
       <InfoSection title = "About Me">
-        <div style = {{"width" : "100%"}}> {educations.map((edu, index) => {return  <>{index ?<hr style = {{"width": "100%", "borderWidth" : "3px", "border-style": "none","border-top": "dashed"}}/>: ""}<Education degree = {edu.degree} dates = {edu.dates} image = {edu.image} university = {edu.university}></Education></>})}</div>
+        <div style = {{"width" : "100%"}}> {educations.map((edu, index) => {return  <>{index ?<hr style = {{"width": "100%", "borderWidth" : "3px", "border-style": "none","border-top": "dashed"}}/>: ""}<Education degree = {edu.degree} dates = {edu.dates} image = {edu.image} university = {edu.university} desc = {edu.description}></Education></>})}</div>
         </InfoSection>
         
       <section id = "work"></section>
