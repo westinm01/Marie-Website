@@ -13,13 +13,14 @@
     font-weight: bold;
     color: white;
     margin-top:5px;
-   
+   text-align: left;
 }
 .education-details{
     
     color: white;
     margin-top: 0px;
     margin-bottom: 0px;
+    text-align: left;
     
 }
 .edudet{
@@ -28,6 +29,7 @@
 
 .uniImage{
     max-width: 100px;
+    max-height: 100px;
     border-radius: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -36,5 +38,5 @@
 .EducationHeaderDesc{
     text-align: left;
     flex-grow: 1;
-
+    max-width: 50%;
 }

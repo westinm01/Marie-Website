@@ -7,7 +7,7 @@ const Education = (props) => {
         <img className = "uniImage" src = {props.image} alt = "university"></img>
         <div style = {{"alignItems": "center"}}>
             <div className = "education-header"><span className = "degree">{props.degree}</span> </div>
-            <p className = "education-details"><span className = "dates edudet">{props.dates}</span>
+            <p className = "education-details"><span className = "dates edudet">{props.dates}</span><br></br>
             <em><span className = "university edudet">{props.university}</span></em></p>
         </div>
         <ul className ="EducationHeaderDesc">
