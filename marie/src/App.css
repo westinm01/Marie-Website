@@ -17,10 +17,11 @@ body{
 }
 
 .infoSectionImage{
-  max-width: 30%;
+  width:auto;
   max-height: 300px;
   border-radius: 38px;
   padding: 1.5rem;
+  align-self: center;
 }
 
 #particles{
@@ -39,7 +40,7 @@ body{
 #resumeButton{
   border: none;
  
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-right: 2rem;
   cursor: pointer;
   border-radius:2px;
